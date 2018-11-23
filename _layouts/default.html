@@ -11,21 +11,16 @@
 
 <body>
 
-<div class="pure-container" data-effect="pure-effect-slide">
 
-  {% include hamburger-content.html %}
 
-  <div class="pure-pusher-container">
-      <div class="pure-pusher"> <!-- this contains all of the body of the site -->
+  {% include hamburger-nav.html %}
 
-        {% include site-header.html %}
+  {% include site-header.html %}
 
-        {{content}}
+  {{content}}
 
-        {% include site-footer.html %}
+  {% include site-footer.html %}
 
-      </div> <!-- end pure-pusher -->
-  </div> <!-- end pure pusher container -->
 
 {% include body-scripts.html %}
 </body>
