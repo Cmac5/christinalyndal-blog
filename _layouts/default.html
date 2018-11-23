@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+
+
+  {% include head.html %}
+
+  <!-- This adds page specific content to the head of that page. -->
+  {{page.head_html}}
+
+</head>
+
+<body>
+
+<div class="pure-container" data-effect="pure-effect-slide">
+
+  {% include hamburger-content.html %}
+
+  <div class="pure-pusher-container">
+      <div class="pure-pusher"> <!-- this contains all of the body of the site -->
+
+        {% include site-header.html %}
+
+        {{content}}
+
+        {% include site-footer.html %}
+
+      </div> <!-- end pure-pusher -->
+  </div> <!-- end pure pusher container -->
+
+{% include body-scripts.html %}
+</body>
