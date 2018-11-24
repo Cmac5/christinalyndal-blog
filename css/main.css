@@ -6,6 +6,7 @@
   - MODULAR ELEMENTS
     - Element Name
   - FORMS
+  - BACKGROUNDS
 
 ---------------------------
 Website Fonts: List fonts here for reference
@@ -26,10 +27,18 @@ img {
   max-width: 100%; /* This ensures an image never breaks it's container */
 }
 
+[class*=grid]{
+  margin:0;
+}
+
 [class*=grid-][class*=-equalHeight]>[class*=col] {
   display:block;
   /* This overrides a quirk with gridlex where contents inside of equal height containers become columns themselves */
 }
+
+
+.col,
+[class*=col-]   { padding: 2%; }
 
 /* ---- GENERAL HELPER CLASSES --------------------------- */
 .tall         { min-height:100vh; }
@@ -81,10 +90,6 @@ header, footer  { padding: 2vh 5%; }
 
 section         { padding: 10vh 5%; }
 
-.col,
-[class*=col-]   { padding: 2%; }
-
-
 /* Other universal styles */
 
 .featured{
@@ -126,6 +131,13 @@ nav a:hover {
 }
 header {
   border-bottom: 1px solid rgb(245,245,245);
+  position: fixed;
+    background-color: white;
+    width: 100vw;
+}
+
+header h2 {
+  margin: 0;
 }
 footer {
   border-top: 1px solid rgb(245,245,245);
@@ -163,6 +175,16 @@ footer nav .fa,
   background-size: cover;
   background-position: center;
   min-height: 20vh;
+}
+
+.clickable-background{
+  display: block;
+}
+.clickable-background div{
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+  min-height:
 }
 
 /* Buttons */
@@ -283,7 +305,12 @@ form [class*=col-] {
 /* ------------ BACKGROUND IMAGES --------------- */
 
 #intro-banner {
-  background-image: url('/images/yoga-1.jpg'); /* This is just an axample */
+  background-image: url('/images/beachbanner.jpg');
+  background-position: 50% 0%;
+  min-height: 100vh;/* This is just an axample */
+}
+.bg-one {
+  background-image: url('/images/yoga-1.jpg');
 }
 
 /*------- Media Queries ------------------------*/
