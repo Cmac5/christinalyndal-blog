@@ -32,7 +32,8 @@
 <!-- Links to CSS Stylesheets  -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Muli:300" rel="stylesheet">
 
     <!-- Font Awesome for Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -91,15 +92,15 @@
 
 
   <header class="grid-middle">
-  <div class="col-6_sm-12 no-padding">
+  <div class="col-6_sm-12 no-padding logo">
     <h2> Christina Lyndal </h2>
   </div>
   <div class="col-6_sm-12 mob-hide no-padding">
     <nav class="right">
       <a href="/index"> Home </a>
       <a href="/about"> About </a>
-      <a href="/blog"> Blog </a>
-      <a href="/shop"> Shop </a>
+      <a href="/blog"> Travel </a>
+      <!-- <a href="/shop"> Shop </a> -->
     </nav>
   </div>
 </header>
@@ -115,7 +116,7 @@
 
 
 <!-- THIRD ICON GRID SECTION ---->
-  <section class="centered">
+  <section class="centered travel-tips">
     <h2> Travel Tips </h2>
     <div class="grid-equalHeight">
 
@@ -128,7 +129,7 @@
       </div>
 
       <div class="col-4_sm-12">
-        <a href="#solo/small group" class="clickable-background">
+        <a href="#unique" class="clickable-background">
           <div class="bg-two">
         <h3> Unique Experiences </h3>
           </div>
@@ -137,31 +138,31 @@
       <div class="col-4_sm-12">
         <a href="#solo/small group" class="clickable-background">
           <div class="bg-three">
-        <h3> Photography </h3>
+              <h3> Photography </h3>
           </div>
+        </a>
       </div>
     </div> <!-- end of grid -->
 </section>
 
 <!-- Fourth SECTION ---->
-<section class="no-padding">
-  <div class="grid-equalHeight featured med-height">
-    <div class="col-6_sm-12 box-img">
-      <!-- ADD BACKGROUND IMAGE -->
+<section class="no-padding about-homepage">
+  <div class="grid-equalHeight med-height">
+    <div class="col-6_sm-12 bg-about">
     </div>
-    <div class="col-6_sm-12-middle">
+    <div class="col-6_sm-12-middle text-about">
       <h2> Hi there! </h2>
-      <p> My name is Christina, after working as a travel agent for 10yrs I decided it's time to get out from behind the desk and back out into the world! My passion is adventure travel and making connections with the people the meet along the way. </p>
+      <p> My name is Christina, after working as a travel agent for 10yrs I decided it's time to get out from behind the desk and back out into the world! My passion is adventure travel and making connections with the people you meet along the way. </p>
     </div>
   </div> <!-- end grid -->
-  <div>
+  <div class="text-center padded">
     <h2> Recent Adventures </h2>
   </div>
-  <div>
-    <img src="/images/yoga-1.jpg" alt="bali">
+  <div class="text-center">
+    <img src="/images/recent-adventures.jpg" alt="bali">
     <!-- ADD BACKGROUND IMAGE -->
   </div>
-    <div class="">
+    <div class="text-center padded">
       <h3> It's never too late to learn </h3>
       <p> This year I attended two courses abroad in Bali at the Institute of Code. The first one was Web Development in June and with no previous coding experience I walked away with this website! Custom built by myself in just 10 days! Amazing!!
       The Second course I did was Social Media and content marketing in November and this course gave my the confidence and push to follow my dreams of living life as a digital nomad and hopefully an influencer. To read more on these course and my time in Bali click HERE.
@@ -185,25 +186,25 @@
   <h2> Be the first to hear about my travel adventures </h2>
 
 
-  <form class="grid-center" action="https://formspree.io/tina@instituteofcode.com"
+  <form id="mailerlite-form" class="grid-center" action="https://formspree.io/tina@instituteofcode.com"
       method="POST">
-      <div class="col-4_sm-12">
+      <div class="col-3_sm-12">
         <input type="text" name="name" placeholder="Your Name">
-        <input type="email" name="_replyto" placeholder="Your Email">
+
     </div>
-    <div class="col-4_sm-12">
-      <textarea placeholder="Your Message"></textarea>
+    <div class="col-3_sm-12">
+      <input type="email" name="_replyto" placeholder="Your Email">
     </div>
-    <div class="col-12">
+    <div class="col-3_sm-12">
       <input type="submit" value="Send" class="button">
     </div>
   </form>
 </section>
 
 <section>
-   <div>
-    <h3> Follow my adventures </h3>
-    <a href="" </a>
+   <div class="insta-footer">
+    <h3 class="centered"> Follow my adventures </h3>
+    <a href="https://www.instagram.com/christinalyndal/"> Instagram </a>
       <!-- LightWidget WIDGET -->
       <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/70548634885a5f23936609af6ea84b82.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
@@ -214,10 +215,15 @@
   <footer class="grid">
 
   <!-- Column 1 -->
-  <div class="col-6_sm-12">
-    <img class="logo" src="/images/demo-logo.png" alt="Brand Name Here">
-    <p> This is a short description of my brand, which is really fucking awesome. You should probably recommend it to someone </p>
+  <div class="col-3_sm-12 logo">
+    <!-- <img class="logo" src="/images/demo-logo.png" alt="Brand Name Here"> -->
+    <h2> Christina Lyndal </h2>
   </div>
+
+  <div class="col-3_sm-12">
+    <p> Travel inspiration for solo travelers searching for adventure and connection with an interest in photography. </p>
+  </div>
+
 
   <!-- Column 2 -->
   <div class="col-3_sm-6_xs-12">
@@ -225,7 +231,7 @@
       <a href="/index"> Home </a>
       <a href="/about"> About </a>
       <a href="/blog"> Blog </a>
-      <a href="/shop"> Shop </a>
+      <!-- <a href="/shop"> Shop </a> -->
     </nav>
   </div>
 
@@ -233,9 +239,10 @@
   <div class="col-3_sm-6_xs-12">
     <nav class="social-nav">
       <!-- add your social links here -->
-      <a href="#"> <i class="fa fa-facebook"></i>Facebook </a>
-      <a href="#"> <i class="fa fa-instagram"> </i>Instagram</a>
-      <a href="#"> <i class="fa fa-twitter"></i>Twitter</a>
+      <!-- <a href="#"> <i class="fa fa-facebook"></i>Facebook </a> -->
+      <a href="https://www.instagram.com/christinalyndal/"> <i class="fa fa-instagram"> </i>Instagram
+      </a>
+      <!-- <a href="#"> <i class="fa fa-twitter"></i>Twitter</a> -->
     </nav>
   </div>
 

@@ -62,19 +62,27 @@ img {
 
 /* Typography */
 body {
-  font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
+  font-family: 'Muli', sans-serif;
+  /* font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */ */
   color: rgb(60,60,65);
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
+  color: #222;
 }
 p {
   margin-bottom: 1rem;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 { font-size: 3.0rem; line-height: 1.2; }
-h2 { font-size: 2.4rem; line-height: 1.25; }
+h2 { font-size: 2.4rem; line-height: 1.25;
+    padding: 1% 0% 4%;}
 h3 { font-size: 2.0rem; line-height: 1.3; }
 h4 { font-size: 1.8rem; line-height: 1.35; }
 h5 { font-size: 1.7rem; line-height: 1.5; }
@@ -83,12 +91,23 @@ p  { font-size: 1.1rem; line-height: 1.5;}
 blockquote  { font-size: 1.1rem; line-height: 1.5;}
 li  { font-size: 1.1rem; }
 
+.logo {
+  font-family: 'Dancing Script', cursive;
+}
+
+.text-center {
+  text-align: center;
+}
 
 /* Padding & Margin */
 
 header, footer  { padding: 2vh 5%; }
 
 section         { padding: 10vh 5%; }
+
+.padded {
+  padding: 6% 10% 1%;
+}
 
 /* Other universal styles */
 
@@ -152,6 +171,10 @@ footer nav .fa,
   padding: 0 1em 0 0;
 }
 
+insta-footer h3 {
+  text-align: center;
+}
+
 .pure-drawer { /* pop-out hamburger menu */
   padding: 5em 3%;
 }
@@ -183,8 +206,20 @@ footer nav .fa,
 .clickable-background div{
   background-position: center;
   background-size: cover;
-  padding: 5%;
-  min-height:
+}
+
+.travel-tips .clickable-background div {
+  min-height: 24vw;
+}
+
+.travel-tips h3 {
+  font-size: 2.0rem;
+  line-height: 1.3;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0,0,0,.5);
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 /* Buttons */
@@ -277,25 +312,43 @@ li      { margin-bottom: 0.5rem; }
 
 /* ----- FORMS --------------------------- */
 
+#mailerlite-form [class*=col] {
+  padding:2px;
+}
+
 input,
 textarea {
   border-style: solid;
-  border: 1px solid grey;
+  border: 2px solid rgb(120,120,120);
   padding: 0.8em;
-  font-family: 'Work Sans'; /* Site Font */
   font-size: 1em;
   display: block;
   width: 100%;
   margin: 1em auto;
   vertical-align: top;
 }
+
+input:focus {
+  border: 2px solid #1abc9c;
+  outline: none;
+}
 textarea {
   min-height: 7em;
 }
 input[type="submit"] {
-  width: auto;
+  width: 100%;
+  padding: 0.8em;
+  border-radius:0;
+  border: 2px solid #1abc9c;
+  font-weight: bold;
   display: block;
   background-color: #1abc9c; /* featured color */
+  transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #1abc9c;
 }
 
 form [class*=col-] {
@@ -309,9 +362,35 @@ form [class*=col-] {
   background-position: 50% 0%;
   min-height: 100vh;/* This is just an axample */
 }
-.bg-one {
-  background-image: url('/images/yoga-1.jpg');
+
+[class*=bg-] {
+  background-size: cover;
+  background-position: center;
 }
+
+.bg-one {
+  background-image: url('/images/solotravel.jpg');
+}
+
+.bg-two{
+  background-image: url('/images/bubbletent.jpg')
+}
+
+.bg-three {
+  background-image: url('/images/photography.jpg')
+}
+
+.bg-about {
+  background-image: url('/images/aboutme.jpg');
+  min-height: 30vw;
+  background-position: 50% 33%;
+}
+
+.text-about {
+  padding: 7%;
+}
+
+
 
 /*------- Media Queries ------------------------*/
 @media(max-width:800px) {
