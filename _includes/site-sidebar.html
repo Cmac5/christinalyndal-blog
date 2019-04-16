@@ -1,0 +1,23 @@
+
+<div class="sidebar padded-2">
+  <h3>
+      <a href="https://www.instagram.com/christinalyndal/" target="_blank">
+        <i class="fab fa-instagram"></i>Keep up with my travels on Insta</a>
+    </h3>
+
+    <!-- LightWidget WIDGET -->
+    <!-- LightWidget WIDGET -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3fc6126857cc5e329e811f1bdb194210.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+</div>
+
+<div>
+  <p> You could put anything you want in here, like links to your social or featured articles, a newsletter signup, etc </p>
+</div>
+
+  <h3> Categories </h3>
+
+  <!-- this will output a list of all the categories on your site -->
+  {% for category in site.categories %}
+    <a href="/category/{{category | first }}" class="category"> {{category | first}} </a>
+  {% endfor %}
