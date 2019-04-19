@@ -149,7 +149,7 @@ nav a:hover {
   margin: 0.5em 0;
 }
 header {
-  border-bottom: 1px solid rgb(245,245,245);
+  /* border-bottom: 1px solid rgb(245,245,245); */
   position: fixed;
     background-color: white;
     width: 100vw;
@@ -159,8 +159,13 @@ header h2 {
   margin: 0;
 }
 footer {
-  border-top: 1px solid rgb(245,245,245);
+  /* border-top: 1px solid rgb(245,245,245); */
 }
+
+.slogan {
+  padding: 2.5em;
+}
+
 footer nav a {
   display: block;
   padding: 0.5em;
@@ -173,6 +178,11 @@ footer nav .fa,
 
 insta-footer h3 {
   text-align: center;
+}
+
+insta-footer {
+  margin: 0;
+  padding: 0;
 }
 
 .pure-drawer { /* pop-out hamburger menu */
@@ -245,7 +255,7 @@ insta-footer h3 {
   font-weight: semi-bold;
 }
 
-/* Shop Elements */
+/* Shop Elements
 .product-loop a {
   color: inherit;
   text-decoration: none;
@@ -262,6 +272,7 @@ insta-footer h3 {
     font-weight: normal;
     margin-bottom: 0;
 }
+*/
 
 /* Customising the snipcart pop-up */
 .snip-layout .snip-header,
@@ -388,6 +399,14 @@ form [class*=col-] {
 
 .text-about {
   padding: 7%;
+}
+
+.about-homepage {
+  margin-left: 3%;
+}
+
+.recent {
+  margin: 3%;
 }
 
 
