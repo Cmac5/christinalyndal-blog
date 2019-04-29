@@ -3,11 +3,19 @@ layout: default
 title: Blog
 ---
 
-<section class="container">
-  <h1 class="centered"> Blog </h1>
+<section id="intro-banner" class="banner featured centered grid-middle">
+  <div class="col">
+    <h2> Travel </h2>
+    <!-- <h1> Miss Escape Travel <br class="mob-hide"> former travel agent </h1> -->
+</div>
+</section>
 
-  <div class="grid blog-loop">
-    {% for post in site.posts limit:6 %}
+
+<section class="grid container">
+  <!-- <h1> Blog </h1> -->
+
+  <div class="col-8_sm-12 grid blog-loop">
+    {% for post in site.posts limit:3 %}
       <div class="col-4_sm-12">
           <a href="{{post.url}}">
             <img src="{{post.image_path}}"> <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
@@ -22,6 +30,14 @@ title: Blog
     <!-- This links to the archive of blog posts -->
     <a href="/archive" class="button"> See More </a>
   </div>
+
+
+  <div class="col-4_sm-12 mob-hide sidebar">
+
+    {% include site-sidebar.html %}
+
+  </div>
+
 </section>
 
 <!-- This is an example of a loop that shows the 3 most recent posts in the travel category -->
@@ -32,7 +48,8 @@ title: Blog
     {% for post in site.categories.travel  limit:3 %}
     <div class="col-4_sm-12">
         <a href="{{post.url}}">
-          <img src="{{post.image_path}}"> <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
+          <img src="{{post.image_path}}">
+          <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
           <h3> {{post.title}} </h3>
           <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
           <p> {{post.excerpt | truncate:100 }} </p>
@@ -40,5 +57,4 @@ title: Blog
       </div>
     {% endfor %}
   </div>
-
 </section>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title:
+title: About
 ---
 
 <section id="intro-banner" class="banner featured centered grid-middle">
@@ -14,9 +14,9 @@ title:
 
   <div class="col-8_sm-12 about">
   <!-- <h1> About </h1> -->
-  <h3> Hey! Thanks for stopping by...</h3>
+  <h3> Hi! Thanks for stopping by...</h3>
   <p> My name is Christina and I was born in Sydney Australia. </p>
-  <p> Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel. </p>
+  <p> My passion is adventure travel and making connections with the people you meet along the way. I hope to inspire you to take an adventure out of your comfort zone because that's where the magic happens! </p>
   <!-- <ul>
     <li> Apple </li>
     <li> Pineapple </li>
@@ -28,7 +28,11 @@ title:
   </div>
 
   <div class="col-4_sm-12 mob-hide sidebar">
-      <div>
+    <!-- sidebar section -->
+
+        {% include site-sidebar.html %}
+
+      <!-- <div>
         <h3> This is a sidebar box </h3>
         <p> You can edit the content of the sidebar box in your post layout. </p>
         <img src="/images/yoga-1.jpg">
@@ -37,12 +41,12 @@ title:
         <p> You could put anything you want in here, like links to your social or featured articles, a newsletter signup, etc </p>
       </div>
 
-        <h3> Categories </h3>
+        <h3> Categories </h3> -->
 
         <!-- this will output a list of all the categories on your site -->
-        {% for category in site.categories %}
-          <a href="/category/{{category | first }}" class="category"> {{category | first}} </a>
-        {% endfor %}
+        <!-- {% for category in site.categories %} -->
+          <!-- <a href="/category/{{category | first }}" class="category"> {{category | first}} </a> -->
+        <!-- {% endfor %} -->
 
     </div>
 
@@ -51,7 +55,7 @@ title:
 </section>
 
 <section class="centered" id="register">
-  <h2> Be the first to hear about my travel adventures </h2>
+  <h2> Need some Travel inspiration...Sign up for my newsletter </h2>
    <form id="mailerlite-form" class="grid-center" action="https://formspree.io/tina@instituteofcode.com"
       method="POST">
       <div class="col-3_sm-12">
