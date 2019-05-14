@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to Plan your perfect holiday
-meta-description:
+title: How to plan your perfect holiday
+meta-description: 'travel guide, travel resource'
 meta-keywords:
 image_path: /images/aboutme.jpg
 categories:
@@ -29,4 +29,8 @@ First ask yourself these questions…
 
 If you're like me and enjoy doing a bit a research into options before you commit to making a booking here are some tips that I find helpful.
 
-To start getting an idea on pricing sites like www.skyscanner.com.au can be super useful and even give you inspiration if you're still not sure where you want to go and just have a certain budget to stick within.
+Once a destination has been decided I like to start looking into what there is to do/see/visit so you can work out how long is ideal. There's nothing worse than booking airfares and accommodation for a week only to realise you really need two weeks to make the most of the destination\!
+
+To start getting an idea on pricing sites like www.skyscanner.com.au and www.expedia.com.au or www.tripadvisor.com.au can be super useful and even give you inspiration if you're still not sure where you want to go and just have a certain budget to stick within.
+
+If you're not great at making decisions and love a hassle free holiday with adventure and like minded travellers then check out the deals section with small group travel operators like www.intrepidtravel.com or www.gadventures.com.au and you'll often find some last min deals discounted which is a great way to get value for money on a trip to somewhere you might not have thought of and meet some amazing people along the way\!
