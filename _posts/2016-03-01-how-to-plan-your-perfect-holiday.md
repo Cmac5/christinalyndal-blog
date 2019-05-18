@@ -5,7 +5,9 @@ meta-description: 'travel guide, travel resource'
 meta-keywords:
 image_path: /images/aboutme.jpg
 categories:
-  - travel
+  - guide
+  - solo
+  - resource
 author: Christina Lyndal
 ---
 
