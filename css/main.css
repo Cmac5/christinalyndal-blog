@@ -378,6 +378,24 @@ form [class*=col-] {
   min-height: 100vh;/* This is just an axample */
 }
 
+#about-banner {
+  background-image: url('/images/aboutme.jpg');
+  background-position: 50% 0%;
+  min-height: 100vh;/* This is just an axample */
+}
+
+#travel-banner {
+  background-image: url('/images/beachbanner.jpg');
+  background-position: 50% 0%;
+  min-height: 100vh;/* This is just an axample */
+}
+
+#contact-banner {
+  background-image: url('/images/beachbanner.jpg');
+  background-position: 50% 0%;
+  min-height: 100vh;/* This is just an axample */
+}
+
 [class*=bg-] {
   background-size: cover;
   background-position: center;
