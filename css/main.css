@@ -91,9 +91,9 @@ p  { font-size: 1.1rem; line-height: 1.3;}
 blockquote  { font-size: 1.1rem; line-height: 1.5;}
 li  { font-size: 1.1rem; }
 
-.logo {
-  font-family: 'Dancing Script', cursive;
-}
+/* .logo { */
+  /* font-family: 'Dancing Script', cursive; */
+/* } */
 
 .text-center {
   text-align: center;
@@ -101,9 +101,9 @@ li  { font-size: 1.1rem; }
 
 /* Padding & Margin */
 
-header, footer  { padding: 2vh 5%; }
+header { padding: 2vh 5%; }
 
-section         { padding: 10vh 5%; }
+section  { padding: 10vh 5%; }
 
 .padded {
   padding: 6% 10% 1%;
@@ -147,6 +147,7 @@ nav a:hover {
   max-height: 2.5rem;
   max-width: 15rem;
   margin: 0.5em 0;
+  font-family: 'Dancing Script', cursive;
 }
 header {
   /* border-bottom: 1px solid rgb(245,245,245); */
@@ -160,11 +161,14 @@ header h2 {
 }
 
 footer {
+  padding: 0.5em;
   /* border-top: 1px solid rgb(245,245,245); */
 }
 
 .slogan {
-  padding: 2.5em;
+  padding: 2.5em 0 0;
+  margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
 }
 
 footer nav a {
@@ -174,7 +178,7 @@ footer nav a {
 
 footer nav .fa,
 .social-share nav .fa {
-  padding: 0 1em 0 0;
+  padding: 0 1em;
 }
 
 insta-footer h3 {
@@ -397,7 +401,7 @@ form [class*=col-] {
 }
 
 #contact-banner {
-  background-image: url('/images/beachbanner.jpg');
+  background-image: url('/images/photography.jpg');
   background-position: 50% 0%;
   min-height: 100vh;/* This is just an axample */
 }
