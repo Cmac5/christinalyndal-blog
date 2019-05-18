@@ -87,7 +87,7 @@ h3 { font-size: 2.0rem; line-height: 1.3; }
 h4 { font-size: 1.8rem; line-height: 1.35; }
 h5 { font-size: 1.7rem; line-height: 1.5; }
 h6 { font-size: 1.5rem; line-height: 1.5; }
-p  { font-size: 1.1rem; line-height: 1;}
+p  { font-size: 1.1rem; line-height: 1.3;}
 blockquote  { font-size: 1.1rem; line-height: 1.5;}
 li  { font-size: 1.1rem; }
 
@@ -112,7 +112,7 @@ section         { padding: 10vh 5%; }
 /* Other universal styles */
 
 .featured {
-  background-color: #1abc9c; /* featured color */
+  background-color: #f7d488; /* featured color */
   color: white;
 }
 .fa.featured {
@@ -193,6 +193,12 @@ insta-footer {
 .mob-nav a {
   display: block;
   padding: 0.5em;
+}
+
+.homepage {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  font-size: 2.2rem;
 }
 
 /* ----- MODULAR ELEMENTS --------------------------- */
