@@ -78,6 +78,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #2a343c;
 }
 
 h1 { font-size: 3.0rem; line-height: 1.2; }
@@ -116,7 +117,7 @@ section  { padding: 10vh 5%; }
   color: white;
 }
 .fa.featured {
-  color: #1abc9c; /* featured color */
+  color: #219fdf; /* featured color */
   background: none;
 }
 
@@ -139,7 +140,8 @@ nav a {
     color: inherit;
 }
 nav a:hover {
-  color: #1abc9c; /* featured color */
+  /* color: #1abc9c; /* featured color */
+  color: #219fdf;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -205,9 +207,16 @@ insta-footer {
   font-size: 2.2rem;
 }
 
+/* -----sidebar----- */
+.sidebar > div {
+  border: 1px solid rgb(245,245,245);
+  padding: 2rem;
+  margin: 2vh 0;
+}
+
 /* ----- MODULAR ELEMENTS --------------------------- */
 .banner {
-  background-color: #1abc9c; /* featured-color */
+  background-color: #219fdf; /* featured-color */
   background-size: cover;
   background-position: center;
   min-height:80vh;
@@ -247,7 +256,7 @@ insta-footer {
  button, /* button is an element snipcart uses */
 .button,
 .button-inverted {
-  background-color: #1abc9c; /* featured color */
+  background-color: #219fdf; /* featured color */
   border: none;
   border-radius: 5px;
   padding: 0.5em 3em;
@@ -288,7 +297,7 @@ insta-footer {
 /* Customising the snipcart pop-up */
 .snip-layout .snip-header,
 .snip-layout .snip-footer {
-  background-color:  #1abc9c; /* featured color */
+  background-color:  #219fdf; /* featured color */
 }
 .snip-layout .snip-footer__copyright {
   color: white;
@@ -311,12 +320,6 @@ insta-footer {
 
 .post-meta {
   font-size: 0.9rem;
-}
-
-.sidebar > div {
-  border: 1px solid rgb(245,245,245);
-  padding: 2rem;
-  margin: 2vh 0;
 }
 
 blockquote {
@@ -353,7 +356,8 @@ textarea {
 }
 
 input:focus {
-  border: 2px solid #1abc9c;
+  /* border: 2px solid #1abc9c; */
+  border: 2px solid ##219fdf;
   outline: none;
 }
 textarea {
@@ -363,17 +367,17 @@ textarea {
 input[type="submit"] {
   width: 100%;
   padding: 0.8em;
-  border-radius:0;
-  border: 2px solid #1abc9c;
+  border-radius:10;
+  border: 2px solid #219fdf;
   font-weight: bold;
   display: block;
-  background-color: #1abc9c; /* featured color */
+  background-color: #219fdf; /* featured color */
   transition: all 0.5s;
 }
 
 input[type="submit"]:hover {
   background-color: white;
-  color: #1abc9c;
+  color: #219fdf;
 }
 
 form [class*=col-] {
