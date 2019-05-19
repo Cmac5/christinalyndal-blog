@@ -1,13 +1,12 @@
 ---
 layout: post
-title: How to plan your perfect holiday
+title: How to plan your next adventure - Tips from a former travel agent
 meta-description: 'travel guide, travel resource'
 meta-keywords:
-image_path: /images/aboutme.jpg
+image_path: /images/lifestyle-3 copy.jpg
 categories:
-  - guide
-  - solo
   - resource
+  - travel
 author: Christina Lyndal
 ---
 
