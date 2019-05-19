@@ -10,4 +10,16 @@ categories:
 author: Emile Kuzma-Floyd
 ---
 
-Ad quo animal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel.
+If you're heading to the Sunshine Coast for a week here are some must do sights and places you need to include on your trip\!
+
+1\. Noosa National Park
+
+Specifically the coastal walk,&nbsp;
+
+2\. Kondailla National Park
+
+3\. Maleny Botanic Gardens
+
+4\. Sunset at Happy Valley Reserve
+
+5\. Sunset over Glass House Mountains
