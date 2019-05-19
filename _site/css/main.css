@@ -389,19 +389,19 @@ form [class*=col-] {
 }
 
 #about-banner {
-  background-image: url('/images/aboutme.jpg');
+  background-image: url('/images/aboutbanner.jpg');
   background-position: 50% 0%;
   min-height: 100vh;/* This is just an axample */
 }
 
 #travel-banner {
-  background-image: url('/images/beachbanner.jpg');
+  background-image: url('/images/travelbanner.jpg');
   background-position: 50% 0%;
   min-height: 100vh;/* This is just an axample */
 }
 
 #contact-banner {
-  background-image: url('/images/photography.jpg');
+  background-image: url('/images/contactbanner.jpg');
   background-position: 50% 0%;
   min-height: 100vh;/* This is just an axample */
 }
