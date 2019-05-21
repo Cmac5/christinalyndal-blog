@@ -228,14 +228,14 @@ insta-footer {
 
 /* ----- MODULAR ELEMENTS --------------------------- */
 .banner {
-  background-color: #219fdf; /* featured-color */
+  background-color: #fdf4e3; /* featured-color */
   background-size: cover;
   background-position: center;
   min-height:80vh;
 }
 
 .box-img { /* This can be used for any col or div that you want filled with a background image. */
-  background-color: grey; /* this is a fallback incase the image doesn't load */
+  background-color: #fdf4e3; /* this is a fallback incase the image doesn't load */
   background-image: url('/images/yoga-1.jpg'); /* if you are adding a unique image to every one you can remove this */
   background-size: cover;
   background-position: center;
@@ -420,6 +420,10 @@ form [class*=col-] {
   background-image: url('/images/contactbanner.jpg');
   background-position: 50% 50%;
   min-height: 100vh;/* This is just an axample */
+}
+
+img {
+  min-width: 90%;
 }
 
 [class*=bg-] {

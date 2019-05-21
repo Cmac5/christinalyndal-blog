@@ -1,4 +1,37 @@
 ---
 layout: default
-title: About
+title: Travel Guides
 ---
+
+
+<section class="grid container">
+  <div class="col-9">
+  <h2 class="centered"> Travel Guides </h2>
+
+  <div class="col-6 grid blog-loop">
+    {% for post in site.categories.guides  limit:8 %}
+    <div class="col-4_sm-12">
+        <a href="{{post.url}}">
+          <img src="{{post.image_path}}">
+          <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
+          <h3> {{post.title}} </h3>
+          <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
+          <p> {{post.excerpt | truncate:100 }} </p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+
+  <div class="col-3_sm-12 mob-hide sidebar">
+
+    {% include site-sidebar.html %}
+
+  </div>
+</section>
+
+<section class="no-padding">
+
+  {% include instagram.html %}
+
+</section>
