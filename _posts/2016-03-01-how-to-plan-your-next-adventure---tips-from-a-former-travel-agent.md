@@ -6,7 +6,6 @@ meta-keywords:
 image_path: /images/lifestyle-3 copy.jpg
 categories:
   - resource
-  - travel
 author: Christina Lyndal
 ---
 
