@@ -3,7 +3,7 @@ layout: post
 title: How to plan your next adventure - Tips from a former travel agent
 meta-description: 'travel guide, travel resource'
 meta-keywords:
-image_path: /images/lifestyle-3 copy.jpg
+image_path: /images/lifestyle.jpg
 categories:
   - resource
 author: Christina Lyndal
