@@ -5,8 +5,7 @@ meta-description:
 meta-keywords:
 image_path: 'http://www.instituteofcode.com/assets/images/rice-paddy.jpg'
 categories:
-  - wine
-  - food
+  - Guide
 author: Emile Kuzma-Floyd
 ---
 
