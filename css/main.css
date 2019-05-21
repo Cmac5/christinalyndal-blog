@@ -117,7 +117,7 @@ section  { padding: 10vh 5%; }
   color: white;
 }
 .fa.featured {
-  color: #219fdf; /* featured color */
+  color: #2e4c74; /* featured color */
   background: none;
 }
 
@@ -141,7 +141,7 @@ nav a {
 }
 nav a:hover {
   /* color: #1abc9c; /* featured color */
-  color: #219fdf;
+  color: #2e4c74;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -214,6 +214,18 @@ insta-footer {
   margin: 2vh 0;
 }
 
+.category {
+  text-transform: capitalize;
+}
+
+.sidebar {
+  background-color: #e3e6e6;
+}
+
+.category h3 {
+  color: #2e4c74;
+}
+
 /* ----- MODULAR ELEMENTS --------------------------- */
 .banner {
   background-color: #219fdf; /* featured-color */
@@ -256,7 +268,7 @@ insta-footer {
  button, /* button is an element snipcart uses */
 .button,
 .button-inverted {
-  background-color: #219fdf; /* featured color */
+  background-color: #2e4c74; /* featured color */
   border: none;
   border-radius: 5px;
   padding: 0.5em 3em;
@@ -297,7 +309,7 @@ insta-footer {
 /* Customising the snipcart pop-up */
 .snip-layout .snip-header,
 .snip-layout .snip-footer {
-  background-color:  #219fdf; /* featured color */
+  background-color:  #2e4c74; /* featured color */
 }
 .snip-layout .snip-footer__copyright {
   color: white;
@@ -357,7 +369,7 @@ textarea {
 
 input:focus {
   /* border: 2px solid #1abc9c; */
-  border: 2px solid ##219fdf;
+  border: 2px solid #2e4c74;
   outline: none;
 }
 textarea {
@@ -368,16 +380,16 @@ input[type="submit"] {
   width: 100%;
   padding: 0.8em;
   border-radius:10;
-  border: 2px solid #219fdf;
+  border: 2px solid #2e4c74;
   font-weight: bold;
   display: block;
-  background-color: #219fdf; /* featured color */
+  background-color: #2e4c74; /* featured color */
   transition: all 0.5s;
 }
 
 input[type="submit"]:hover {
   background-color: white;
-  color: #219fdf;
+  color: #2e4c74;
 }
 
 form [class*=col-] {
@@ -400,13 +412,13 @@ form [class*=col-] {
 
 #travel-banner {
   background-image: url('/images/travelbanner.jpg');
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   min-height: 100vh;/* This is just an axample */
 }
 
 #contact-banner {
   background-image: url('/images/contactbanner.jpg');
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   min-height: 100vh;/* This is just an axample */
 }
 

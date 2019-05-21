@@ -14,7 +14,7 @@ title: Blog
 <section class="grid container">
   <!-- <h1> Blog </h1> -->
 
-  <div class="col-9_sm-12 grid blog-loop">
+  <div class="col-8_sm-12 grid blog-loop">
     {% for post in site.posts limit:3 %}
       <div class="col-6_sm-12">
           <a href="{{post.url}}">
@@ -25,15 +25,15 @@ title: Blog
           </a>
         </div>
       {% endfor %}
-      <div class="col-12 centered">
+      <!-- <div class="col-12 centered"> -->
         <!-- This links to the archive of blog posts -->
-        <a href="/archive" class="button"> See More </a>
-      </div>
+        <!-- <a href="/archive" class="button"> See More </a> -->
+      <!-- </div> -->
 
   </div>
 
 
-  <div class="col-3_sm-12 mob-hide sidebar">
+  <div class="col-4_sm-12 mob-hide sidebar">
 
     {% include site-sidebar.html %}
 
@@ -42,23 +42,25 @@ title: Blog
 </section>
 
 <!-- This is an example of a loop that shows the 3 most recent posts in the travel category -->
-<section>
-  <h2 class="centered"> Travel Category Posts </h2>
+<!-- <section> -->
+  <!-- <h2 class="centered"> Solo Travel Category Posts </h2> -->
 
-  <div class="grid blog-loop">
-    {% for post in site.categories.travel  limit:3 %}
-    <div class="col-4_sm-12">
-        <a href="{{post.url}}">
-          <img src="{{post.image_path}}">
+  <!-- <div class="grid blog-loop"> -->
+    <!-- {% for post in site.categories.solo  limit:3 %} -->
+    <!-- <div class="col-4_sm-12"> -->
+        <!-- <a href="{{post.url}}"> -->
+          <!-- <img src="{{post.image_path}}"> -->
           <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
-          <h3> {{post.title}} </h3>
-          <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
-          <p> {{post.excerpt | truncate:100 }} </p>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-</section>
+          <!-- <h3> {{post.title}} </h3> -->
+          <!-- <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p> -->
+          <!-- <p> {{post.excerpt | truncate:100 }} </p> -->
+        <!-- </a> -->
+      <!-- </div> -->
+    <!-- {% endfor %} -->
+  <!-- </div> -->
+
+
+<!-- </section> -->
 
 <section class="no-padding">
 

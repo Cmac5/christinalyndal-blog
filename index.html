@@ -21,7 +21,7 @@ featured-image_path: /uploads/pr-photos-6472.jpg
     <div class="grid-equalHeight">
 
       <div class="col-4_sm-12">
-        <a href="#solo" class="clickable-background">
+        <a href="/solo" class="clickable-background">
           <div class="bg-one">
             <h3> Solo Travel </h3>
           </div>
@@ -29,14 +29,14 @@ featured-image_path: /uploads/pr-photos-6472.jpg
       </div>
 
       <div class="col-4_sm-12">
-        <a href="#guides" class="clickable-background">
+        <a href="/guides" class="clickable-background">
           <div class="bg-two">
         <h3> Travel Guides </h3>
           </div>
       </div>
 
       <div class="col-4_sm-12">
-        <a href="#resources" class="clickable-background">
+        <a href="/resources" class="clickable-background">
           <div class="bg-three">
               <h3> Travel Resources </h3>
           </div>
@@ -47,6 +47,7 @@ featured-image_path: /uploads/pr-photos-6472.jpg
 
 <!-- Fourth SECTION Intro to About me ---->
 <section class="no-padding about-homepage">
+
   <div class="grid-equalHeight med-height">
     <div class="col-6_sm-12 bg-about">
     </div>
@@ -56,23 +57,44 @@ featured-image_path: /uploads/pr-photos-6472.jpg
     </div>
   </div>
 
+  </section>
+
   <!-- end grid -->
 
-  <div class="recent">
-  <div class="text-center padded">
-    <h2> Recent Adventures </h2>
-  </div>
-  <div class="text-center">
-    <img src="/images/bali.jpg" alt="bali">
-    <!-- ADD BACKGROUND IMAGE -->
-  </div>
-    <div class="text-center padded">
-      <h3> It's never too late to learn </h3>
-      <p> This year I attended two courses abroad in Bali at the Institute of Code. The first one was Web Development in June and with no previous coding experience I walked away with this website! Custom built by myself in just 10 days! Amazing!!
-      The Second course I did was Social Media and content marketing in November and this course gave my the confidence and push to follow my dreams of living life as a digital nomad and hopefully an influencer. To read more on these course and my time in Bali click HERE.
+  <section>
+  <h2 class="centered"> Recent Post </h2>
+
+    <div class="blog-loop">
+      {% for post in site.categories.solo  limit:1 %}
+      <div class="col-4_sm-12">
+          <a href="{{post.url}}">
+            <img src="{{post.image_path}}">
+            <!-- for consistent image sizes you will either need to crop the images beforehand or change this to divs with background images -->
+            <h3> {{post.title}} </h3>
+            <p class="post-meta">{{post.date | date_to_string }} | By {{post.author}}</p>
+            <p> {{post.excerpt | truncate:100 }} </p>
+          </a>
+        </div>
+      {% endfor %}
     </div>
 
-  </div>
+  </section>
+
+  <!-- <div class="recent"> -->
+  <!-- <div class="text-center padded"> -->
+    <!-- <h2> Recent Adventures </h2> -->
+  <!-- </div> -->
+  <!-- <div class="text-center"> -->
+    <!-- <img src="/images/bali.jpg" alt="bali"> -->
+    <!-- ADD BACKGROUND IMAGE -->
+  <!-- </div> -->
+    <!-- <div class="text-center padded"> -->
+      <!-- <h3> It's never too late to learn </h3> -->
+      <!-- <p> This year I attended two courses abroad in Bali at the Institute of Code. The first one was Web Development in June and with no previous coding experience I walked away with this website! Custom built by myself in just 10 days! Amazing!! -->
+      <!-- The Second course I did was Social Media and content marketing in November and this course gave my the confidence and push to follow my dreams of living life as a digital nomad and hopefully an influencer. To read more on these course and my time in Bali click HERE. -->
+    <!-- </div> -->
+
+  <!-- </div> -->
 
 
 <!-- currently don't need this section but may add later. -->
@@ -84,7 +106,7 @@ featured-image_path: /uploads/pr-photos-6472.jpg
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum dapibus felis, sed convallis turpis aliquam nec. </p>
     </div>
   </div> --> <!-- end grid -->
-</section>
+
 
 <section class="centered" id="register">
   <h3> For the latest travel inspo and tips </h3>

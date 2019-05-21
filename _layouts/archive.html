@@ -3,10 +3,10 @@ layout: default
 ---
 
 
-<section class="container">
+<section class="grid container">
   <h1 class="centered"> Archive of posts with {{ page.type }} '{{ page.title }}{{ page.date | date: "%Y" }}' </h1>
 
-  <div class="grid blog-loop">
+  <div class="col-8_sm-12 grid blog-loop">
     {% for post in page.posts limit:6 %}
       <div class="col-4_sm-12">
           <a href="{{post.url}}">
@@ -18,4 +18,17 @@ layout: default
         </div>
       {% endfor %}
   </div>
+
+  <div class="col-4_sm-12 mob-hide sidebar">
+
+    {% include site-sidebar.html %}
+
+  </div>
+
+</section>
+
+<section class="no-padding">
+
+  {% include instagram.html %}
+
 </section>

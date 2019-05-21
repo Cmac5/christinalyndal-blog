@@ -19,9 +19,13 @@
   {% include form.html %}
 </div>
 
+<div class="centered category">
+
   <h3> Categories </h3>
 
   <!-- this will output a list of all the categories on your site -->
   {% for category in site.categories %}
     <a href="/category/{{category | first }}" class="category"> {{category | first}} </a>
   {% endfor %}
+
+</div>
