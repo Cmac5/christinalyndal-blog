@@ -104,7 +104,7 @@ li  { font-size: 1.1rem; }
 
 header { padding: 2vh 5%; }
 
-section  { padding: 10vh 5%; }
+section  { padding: 6vh 5%; }
 
 .padded {
   padding: 6% 10% 1%;
@@ -168,7 +168,7 @@ footer {
 }
 
 .slogan {
-  padding: 2.5em 0 0;
+  padding: 0.5em 0 0;
   margin-bottom: 0;
   font-family: 'Dancing Script', cursive;
 }
@@ -190,6 +190,10 @@ insta-footer h3 {
 insta-footer {
   margin: 0;
   padding: 0;
+}
+
+.homeform {
+  background-color: #e3e6e6;
 }
 
 .pure-drawer { /* pop-out hamburger menu */
