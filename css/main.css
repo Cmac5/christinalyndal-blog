@@ -422,7 +422,7 @@ form [class*=col-] {
 }
 
 #contact-banner {
-  background-image: url('/images/contactbanner.jpg');
+  background-image: url('/images/utah-banner-2.jpg');
   background-position: 50% 50%;
   min-height: 100vh;/* This is just an axample */
 }
